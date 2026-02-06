@@ -1,0 +1,24 @@
+\documentclass[11pt,aspectratio=169,t]{beamer}
+
+\usepackage[width=1920]{beamer-reveal}
+
+\begin{document}
+
+\begin{frame}
+  \frametitle{Hi!}
+  \begin{itemize}
+    \item This is a sample presentation using the beamer-reveal package.
+    \item You can use this package to create beautiful presentations with videos to be viewed in a web browser.
+    \item The package is based on the Reveal.js library, which is a popular JavaScript library for creating presentations.
+  \end{itemize}
+\end{frame}
+\begin{frame}
+  \begin{figure}
+    \video<1>[controls,height=0.7,aspectratio=16/9,
+      background=white,fit=fill]
+      {videos/thx.mp4}
+    \caption{Thank you for using beamer-reveal!}
+  \end{figure}
+\end{frame}
+
+\end{document}
