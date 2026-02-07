@@ -1,5 +1,15 @@
-Beamer reveal bug report:
--------------------------
+# Beamer reveal bug report:
+
+## Instructions
+
+```sh
+# Any other compile should work. Note the .latexmkrc
+# Should be reproducible without .latexmkrc, edit accordingly publish.sh
+latexmk -pdf main
+source publish.sh
+```
+
+## Bug
 
 With newest version (BeamerReveal-20260205.0754), generated main.html has paths of slides as:
 - data-background-image="website/main_files/media/Slides/slide-1.jpg"
